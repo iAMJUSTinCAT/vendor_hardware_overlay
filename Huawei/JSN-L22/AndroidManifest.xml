@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.hw.oemName"
-                android:requiredSystemPropertyValue="+JSN*"
+                android:requiredSystemPropertyValue="+*JSN*"
 		android:priority="417"
 		android:isStatic="true" />
 </manifest>
